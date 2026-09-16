@@ -1,4 +1,177 @@
-<html>
-    <h1>HOLA MUNDOOO CURSO GITHUB</h1>
-    <h1>HOLA MUNDOOO CURSO GITHUB</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tecnología Moderna - IA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fuente Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1a73e8, #4285f4);
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #444;
+    }
+    section {
+      padding: 40px;
+      margin: 20px auto;
+      max-width: 1000px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1a73e8;
+    }
+    /* Carrusel */
+    .carousel {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .carousel img {
+      width: 100%;
+      display: none;
+    }
+    .carousel img.active {
+      display: block;
+    }
+    .carousel button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .carousel button.prev { left: 10px; }
+    .carousel button.next { right: 10px; }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inteligencia Artificial en la Vida Moderna</h1>
+    <p>Explora cómo la IA transforma nuestro mundo</p>
+  </header>
+
+  <nav>
+    <a href="#hogar">Hogar Inteligente</a>
+    <a href="#salud">Salud</a>
+    <a href="#educacion">Educación</a>
+    <a href="#futuro">Futuro</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="hogar">
+    <h2>🏠 Hogar Inteligente</h2>
+    <p>La IA permite controlar luces, electrodomésticos y seguridad desde tu móvil.</p>
+    <div class="carousel">
+      <img src="https://images.unsplash.com/photo-1581090700227-4c4f7a3a3f5c" class="active" alt="Hogar Inteligente 1">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Hogar Inteligente 2">
+      <img src="https://images.unsplash.com/photo-1616627455560-1a2f7a3a3f5c" alt="Hogar Inteligente 3">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="salud">
+    <h2>💉 Salud</h2>
+    <p>Los sistemas de IA ayudan a diagnosticar enfermedades y mejorar tratamientos.</p>
+    <div class="carousel">
+      <img src="https://images.unsplash.com/photo-1588776814546-1f9b6f1a6d9f" class="active" alt="IA Salud 1">
+      <img src="https://images.unsplash.com/photo-1581091012184-5c1f7a3a3f5c" alt="IA Salud 2">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="IA Salud 3">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="educacion">
+    <h2>📚 Educación</h2>
+    <p>La IA personaliza el aprendizaje y ofrece tutores virtuales.</p>
+    <div class="carousel">
+      <img src="https://images.unsplash.com/photo-1581091012184-5c1f7a3a3f5c" class="active" alt="IA Educación 1">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="IA Educación 2">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="IA Educación 3">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="futuro">
+    <h2>🚀 Futuro</h2>
+    <p>La IA promete ciudades inteligentes, transporte autónomo y nuevas oportunidades.</p>
+    <div class="carousel">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="active" alt="Futuro IA 1">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Futuro IA 2">
+      <img src="https://images.unsplash.com/photo-1581090700227-4c4f7a3a3f5c" alt="Futuro IA 3">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>📩 Contacto</h2>
+    <p>¿Quieres saber más? Escríbenos a <strong>info@tecnologiaia.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 - Proyecto IA | Diseñado con ❤️ y Tecnología</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.carousel').forEach(carousel => {
+      const images = carousel.querySelectorAll('img');
+      let index = 0;
+      const prevBtn = carousel.querySelector('.prev');
+      const nextBtn = carousel.querySelector('.next');
+
+      function showImage(i) {
+        images.forEach(img => img.classList.remove('active'));
+        images[i].classList.add('active');
+      }
+
+      prevBtn.addEventListener('click', () => {
+        index = (index - 1 + images.length) % images.length;
+        showImage(index);
+      });
+
+      nextBtn.addEventListener('click', () => {
+        index = (index + 1) % images.length;
+        showImage(index);
+      });
+    });
+  </script>
+</body>
 </html>
